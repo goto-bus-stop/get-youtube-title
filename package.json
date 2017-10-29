@@ -1,0 +1,29 @@
+{
+  "name": "get-youtube-title",
+  "description": "get a youtube video title.",
+  "version": "0.0.0",
+  "author": "Renée Kooi <renee@kooi.me>",
+  "bugs": {
+    "url": "https://github.com/goto-bus-stop/get-youtube-title/issues"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3",
+    "tape": "^4.8.0"
+  },
+  "homepage": "https://github.com/goto-bus-stop/get-youtube-title",
+  "keywords": [
+    "title",
+    "video",
+    "youtube"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "browser": "browser.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goto-bus-stop/get-youtube-title.git"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js"
+  }
+}

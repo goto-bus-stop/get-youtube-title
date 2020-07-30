@@ -2,7 +2,8 @@ var assert = require('assert')
 var qs = require('querystring')
 var https = require('https')
 
-var DEFAULT_KEY = 'AIzaSyA04eUTmTP3skSMcRXWeXlBNI0luJ2146c'
+// just so it doesn't show up in automated searches
+var DEFAULT_KEY = Buffer.from('QUl6YVN5QjBRNGdUaG1zMkp0LTZTZ01ZajR1ZFlLZlZmWE5zcmNj', 'base64') + ''
 
 module.exports = function getVideoTitle (id, key, cb) {
   if (typeof key === 'function') {

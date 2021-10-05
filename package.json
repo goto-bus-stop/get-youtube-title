@@ -7,7 +7,7 @@
     "url": "https://github.com/goto-bus-stop/get-youtube-title/issues"
   },
   "devDependencies": {
-    "standard": "^15.0.0",
+    "standard": "^16.0.4",
     "tape": "^5.0.1"
   },
   "homepage": "https://github.com/goto-bus-stop/get-youtube-title",
